@@ -7,12 +7,12 @@ INSERT INTO subgenres (name) VALUES ("magic");
 INSERT INTO authors (name) VALUES ("George R. R. Martin");
 INSERT INTO authors (name) VALUES ("JK Rowling");
 
-INSERT INTO books (title, year, series_id) VALUES ("Game of Thrones", 1996, 1)
-INSERT INTO books (title, year, series_id) VALUES ("A Clash of Kings", 1998, 1)
-INSERT INTO books (title, year, series_id) VALUES ("A Storm of Swords", 2000, 1)
-INSERT INTO books (title, year, series_id) VALUES ("The Sorcerer's Stone", 1997, 2)
-INSERT INTO books (title, year, series_id) VALUES ("The Chamber of Secrets", 1998, 2)
-INSERT INTO books (title, year, series_id) VALUES ("The Prisoner of Azkaban", 1999, 2)
+INSERT INTO books (title, year, series_id) VALUES ("Game of Thrones", 1996, 1);
+INSERT INTO books (title, year, series_id) VALUES ("A Clash of Kings", 1998, 1);
+INSERT INTO books (title, year, series_id) VALUES ("A Storm of Swords", 2000, 1);
+INSERT INTO books (title, year, series_id) VALUES ("The Sorcerer's Stone", 1997, 2);
+INSERT INTO books (title, year, series_id) VALUES ("The Chamber of Secrets", 1998, 2);
+INSERT INTO books (title, year, series_id) VALUES ("The Prisoner of Azkaban", 1999, 2);
 
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Lady", "Woof Woof", "direwolf", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Tyrion Lannister", "A Lannister always pays his debts", "human", 1, 1);
